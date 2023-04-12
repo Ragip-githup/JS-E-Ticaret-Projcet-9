@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>JS E-Ticaret</title>
+</head>
+
+<body>
+    <header>
+        <h1>E-Ticaret</h1>
+        <input type="text" placeholder="Urun İsmi Giriniz">
+        <div>
+            <button id="open-btn">Sepet</button>
+            <button>Kayit Ol</button>
+            <button>Giris Yap</button>
+        </div>
+    </header>
+    <main>
+        <div class="category-wrapper">
+            <h1>CATEGORIES</h1>
+            <div class="categories"></div>
+        </div>
+        <div class="products-wrapper">
+            <h1>PRODUCTS</h1>
+            <div class="products"></div>
+        </div>
+        <div id="modal-wrappers">
+            <div id="modal">
+                <img id="close-btn" src="./img/Close-item.png">
+                <div class="modal-list"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
